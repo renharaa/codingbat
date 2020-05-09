@@ -75,6 +75,7 @@ def round_sum(a, b, c):
 	round_sum(12, 13, 14) → 30
 	round_sum(6, 4, 4) → 10
 	"""
+	
 	nums = (a, b, c)
 	total = 0
 	return sum(round10(i) for i in nums)
@@ -92,6 +93,7 @@ def close_far(a, b, c):
 	close_far(1, 2, 3) → False
 	close_far(4, 1, 3) → True
 	"""
+	
 	return is_close(a, b) and is_far(a, b, c) or \
 		   is_close(a, c) and is_far(a, c, b)
 		   
@@ -113,17 +115,3 @@ def make_chocolate(small, big, goal):
 	
 	need = (goal - big*5) if goal >= big*5 else (goal % 5)
 	return need if need <= small else -1
-
-
-
-
-
-
-
-
-
-
-
-
-
-
