@@ -1,3 +1,5 @@
 # CodingBat Python
-Solutions to CodingBat problems https://codingbat.com/python
-Clean and Minimal Codes
+## Solutions to CodingBat problems
+[CodingBat Python Site](https://codingbat.com/python)
+
+> Clean and Simplified Codes
