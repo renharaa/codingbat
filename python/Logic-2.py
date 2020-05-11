@@ -19,18 +19,18 @@ def lone_sum(a, b, c):
 	lone_sum(3, 2, 3) → 2
 	lone_sum(3, 3, 3) → 0
 	"""
-	# if a is b and b is c:
+	# if a == b and b == c:
 	#   return(0)
-	# elif a is b:
+	# elif a == b:
 	#   return(c)
-	# elif a is c:
+	# elif a == c:
 	#   return(b)
-	# elif b is c:
+	# elif b == c:
 	#   return(a)
 	# else:
 	#   return(a+b+c)
 	
-	return 0 if (a is b and b is c) else c if (a is b) else b if (a is c) else a if (b is c) else (a + b + c)
+	return 0 if (a == b and b == c) else c if (a == b) else b if (a == c) else a if (b == c) else (a + b + c)
 
 #######################################################################################
 
@@ -47,7 +47,7 @@ def lucky_sum(a, b, c):
 	# if c is 13: return a+b
 	# return a+b+c
 	
-	return 0 if a is 13 else a if b is 13 else (a + b) if c is 13 else (a + b + c)
+	return 0 if a == 13 else a if b == 13 else (a + b) if c == 13 else (a + b + c)
 
 #######################################################################################
 def no_teen_sum(a, b, c):

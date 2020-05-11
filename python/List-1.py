@@ -21,7 +21,7 @@ def same_first_last(nums):
 	same_first_last([1, 2, 1]) → True
 	"""
 	
-	return len(nums) > 0 and nums[-1] is nums[0]
+	return len(nums) > 0 and nums[-1] == nums[0]
 
 #################################################################
 
@@ -45,7 +45,7 @@ def common_end(a, b):
 	common_end([1, 2, 3], [1, 3]) → True
 	"""
 	
-	return a[0] is b[0] or a[-1] is b[-1]
+	return a[0] == b[0] or a[-1] == b[-1]
 
 #################################################################
 

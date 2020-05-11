@@ -88,7 +88,7 @@ def love6(a, b):
 	love6(1, 5) → True
 	"""
 	
-	return (a is 6 or b is 6) or (a + b) is 6 or abs(a - b) is 6
+	return (a == 6 or b == 6) or (a + b) == 6 or abs(a - b) == 6
 
 #######################################################################################
 	

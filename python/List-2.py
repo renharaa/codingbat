@@ -75,9 +75,9 @@ def sum67(nums):
 	for i in range(0, len(nums)):
 		if nums[i] == 6:
 			flag = False
-		elif flag is False and nums[i] == 7:
+		elif flag == False and nums[i] == 7:
 			flag = True
-		elif flag is True:
+		elif flag == True:
 			sum += nums[i]
 	return sum
 
